@@ -3,15 +3,19 @@
 	<children>
 		<folder name="Templates">
 			<child name="Template_Python_Project" key="{F0DDED2C-A91E-4838-ABD2-B9FFC6FB8232}" path="Template_Python_Project\Template_Python_Project.mds" />
+			<child name="Template_JavaScript_Project" key="{B04EFB95-0F09-4ECF-BB9B-FFB582859928}" path="Template_JavaScript_Project\Template_JavaScript_Project.mds" />
 		</folder>
 		<folder name="Training">
 			<child name="Python_Training_Project" key="{31FDCDDC-2200-43D1-A211-4002CB7BD30B}" path="Python_Training_Project\Python_Training_Project.mds" />
+			<child name="JavaScript_Training_Project" key="{BD910DB2-0429-47A0-9217-B44E62673248}" path="JavaScript_Training_Project\JavaScript_Training_Project.mds" />
 		</folder>
 	</children>
 	<testItems key="{DDD45D64-CD01-4097-BB45-73BBE481B4A2}">
 		<children>
-			<testItem key="{31FDCDDC-2200-43D1-A211-4002CB7BD30B}" enabled="True" timeout="0" stopOnError="True" description="" />
-			<testItem key="{F0DDED2C-A91E-4838-ABD2-B9FFC6FB8232}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{31FDCDDC-2200-43D1-A211-4002CB7BD30B}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{F0DDED2C-A91E-4838-ABD2-B9FFC6FB8232}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{BD910DB2-0429-47A0-9217-B44E62673248}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{B04EFB95-0F09-4ECF-BB9B-FFB582859928}" enabled="True" timeout="0" stopOnError="False" description="" />
 		</children>
 	</testItems>
 	<variables key="{0A7E415B-7573-472D-AF5C-2232995F5BB0}" />
