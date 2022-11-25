@@ -642,6 +642,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="navContactUs" Key="{642F6A7C-06BC-4007-A334-E66E544F7D07}">
+										<Image FileName="-1092321391" Left="822" Top="111" Right="1005" Bottom="163" />
+										<TypeInfo Item0="{493061BD-018B-4CFC-9045-D3A9A327C451}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;ml-auto&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkContactUs" Key="{64A1D672-7CE1-4625-AF6B-69D9BDE82AF2}">
+										<Image FileName="-1092321391" Left="822" Top="111" Right="918" Bottom="163" />
+										<TypeInfo Item0="{3274CA54-7B22-4DAB-BFFB-4D09B7639480}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Contact us&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[2]/a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//nav[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -698,6 +725,9 @@
 					<Child Name="navUsd" Owner="{97E3F166-D5D3-423C-9881-B898099C857C}">
 						<Child Name="linkLogIn" Owner="{94E724EC-C82D-44AC-969A-A72883118C2A}">
 							<Child Name="textnodeLogIn" Owner="{48DD89F9-BF93-4E01-9F3E-97D6DC3555D2}" />
+						</Child>
+						<Child Name="navContactUs" Owner="{642F6A7C-06BC-4007-A334-E66E544F7D07}">
+							<Child Name="linkContactUs" Owner="{64A1D672-7CE1-4625-AF6B-69D9BDE82AF2}" />
 						</Child>
 					</Child>
 				</Child>
