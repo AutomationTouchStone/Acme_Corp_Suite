@@ -494,6 +494,105 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeYourRegistrationComplete" Key="{C3241A93-BABE-46C7-9F92-57DB2A8C07B1}">
+										<Image FileName="-1286603442" Left="413" Top="386" Right="1523" Bottom="409" />
+										<TypeInfo Item0="{E8CDE189-CD33-46F9-86B3-2641D5762D4D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(text(), &apos;Your registration completed&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;section-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkContinue" Key="{F067B992-7E67-4F05-BC15-9AF7B3A4A402}">
+										<Image FileName="214989091" Left="405" Top="417" Right="501" Bottom="462" />
+										<TypeInfo Item0="{C9679F2F-04D3-4B8C-8F76-A3ACC3457021}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Continue&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTheSpecifiedEmailAlready" Key="{B144B8D5-098C-4AF2-90C2-6FE53467702C}">
+										<Image FileName="-733585905" Left="488" Top="384" Right="1115" Bottom="407" />
+										<TypeInfo Item0="{E8CDE189-CD33-46F9-86B3-2641D5762D4D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;The specified email already exists&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;register-form&apos;]//li" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{86420ADB-DE6D-42DC-99E3-A5ED571C896D}">
+										<Image FileName="833115197" Left="8" Top="111" Right="1911" Bottom="290" />
+										<TypeInfo Item0="{E8CDE189-CD33-46F9-86B3-2641D5762D4D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{8E4A23E0-7593-44F1-9B10-460FBBDF80FD}">
+										<Image FileName="833115197" Left="403" Top="187" Right="653" Bottom="218" />
+										<TypeInfo Item0="{CBF70D67-4AB6-4DD7-9F1B-62BC0249363A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{8A56160A-1557-4DE3-83C2-3F549D160F82}">
+										<Image FileName="833115197" Left="403" Top="187" Right="653" Bottom="218" />
+										<TypeInfo Item0="{E8CDE189-CD33-46F9-86B3-2641D5762D4D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{48BF97AE-4C6A-4A21-8AAA-F9EF86D3405C}">
@@ -615,7 +714,7 @@
 										<Image FileName="-1951243678" Left="1420" Top="103" Right="1507" Bottom="155" />
 										<Selectors>
 											<Selector>
-												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
+												<Value Value="xpath=//a[contains(., &apos;*&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
@@ -644,7 +743,6 @@
 									</Child>
 									<Child Name="navContactUs" Key="{642F6A7C-06BC-4007-A334-E66E544F7D07}">
 										<Image FileName="-1092321391" Left="822" Top="111" Right="1005" Bottom="163" />
-										<TypeInfo Item0="{493061BD-018B-4CFC-9045-D3A9A327C451}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//nav[contains(@class, &apos;ml-auto&apos;)]" />
@@ -653,7 +751,6 @@
 									</Child>
 									<Child Name="linkContactUs" Key="{64A1D672-7CE1-4625-AF6B-69D9BDE82AF2}">
 										<Image FileName="-1092321391" Left="822" Top="111" Right="918" Bottom="163" />
-										<TypeInfo Item0="{3274CA54-7B22-4DAB-BFFB-4D09B7639480}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//a[.=&apos;Contact us&apos;]" />
@@ -666,6 +763,91 @@
 											</Selector>
 											<Selector>
 												<Value Value="//nav[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSuperuser01" Key="{AD72882F-9E14-4125-9AD7-E08DFE4AC9A6}">
+										<Image FileName="-265696951" Left="1398" Top="128" Right="1486" Bottom="145" />
+										<TypeInfo Item0="{E8CDE189-CD33-46F9-86B3-2641D5762D4D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;SuperUser01&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;SuperUser01&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogIn2" Key="{89278E19-0BDA-469C-A4F6-65A964131AE9}">
+										<Image FileName="1359505135" Left="1456" Top="128" Right="1504" Bottom="145" />
+										<TypeInfo Item0="{E8CDE189-CD33-46F9-86B3-2641D5762D4D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSuperuser03" Key="{2F0C9988-7433-4D2F-A38C-8CEE6B474C28}">
+										<Image FileName="-1017027633" Left="1361" Top="103" Right="1506" Bottom="155" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;SuperUser03&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSuperuser03" Key="{8C8BF8F7-886E-41F6-B56A-8524BD32E668}">
+										<Image FileName="-1017027633" Left="1390" Top="120" Right="1478" Bottom="137" />
+										<TypeInfo Item0="{C9679F2F-04D3-4B8C-8F76-A3ACC3457021}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;SuperUser03&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;SuperUser03&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navMenubarMyAccount" Key="{FDEFC274-9FBF-4B01-9CF2-C757DD1F8A6B}">
+										<Image FileName="-39631365" Left="1361" Top="103" Right="1506" Bottom="155" />
+										<Selectors>
+											<Selector>
+												<Value Value="#menubar-my-account" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogOut" Key="{C3589F37-06FD-449A-8AF8-B25602213F8F}">
+										<Image FileName="-39631365" Left="1342" Top="303" Right="1506" Bottom="342" />
+										<TypeInfo Item0="{C9679F2F-04D3-4B8C-8F76-A3ACC3457021}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Log out&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -713,6 +895,14 @@
 							<Child Name="checkboxIWouldLikeToSubscribeToT" Owner="{03681138-8A4A-42CD-A6E5-31E6D6E12955}" />
 						</Child>
 						<Child Name="buttonRegisterButton" Owner="{F17495E6-E812-4F1D-88FA-B321EE97CDCA}" />
+						<Child Name="textnodeTheSpecifiedEmailAlready" Owner="{B144B8D5-098C-4AF2-90C2-6FE53467702C}" />
+					</Child>
+					<Child Name="textnodeYourRegistrationComplete" Owner="{C3241A93-BABE-46C7-9F92-57DB2A8C07B1}" />
+					<Child Name="linkContinue" Owner="{F067B992-7E67-4F05-BC15-9AF7B3A4A402}" />
+				</Child>
+				<Child Name="header" Owner="{86420ADB-DE6D-42DC-99E3-A5ED571C896D}">
+					<Child Name="link" Owner="{8E4A23E0-7593-44F1-9B10-460FBBDF80FD}">
+						<Child Name="imageSmartstore" Owner="{8A56160A-1557-4DE3-83C2-3F549D160F82}" />
 					</Child>
 				</Child>
 			</Child>
@@ -725,9 +915,17 @@
 					<Child Name="navUsd" Owner="{97E3F166-D5D3-423C-9881-B898099C857C}">
 						<Child Name="linkLogIn" Owner="{94E724EC-C82D-44AC-969A-A72883118C2A}">
 							<Child Name="textnodeLogIn" Owner="{48DD89F9-BF93-4E01-9F3E-97D6DC3555D2}" />
+							<Child Name="textnodeSuperuser01" Owner="{AD72882F-9E14-4125-9AD7-E08DFE4AC9A6}" />
+							<Child Name="textnodeLogIn2" Owner="{89278E19-0BDA-469C-A4F6-65A964131AE9}" />
 						</Child>
 						<Child Name="navContactUs" Owner="{642F6A7C-06BC-4007-A334-E66E544F7D07}">
 							<Child Name="linkContactUs" Owner="{64A1D672-7CE1-4625-AF6B-69D9BDE82AF2}" />
+						</Child>
+						<Child Name="linkSuperuser03" Owner="{2F0C9988-7433-4D2F-A38C-8CEE6B474C28}">
+							<Child Name="textnodeSuperuser03" Owner="{8C8BF8F7-886E-41F6-B56A-8524BD32E668}" />
+						</Child>
+						<Child Name="navMenubarMyAccount" Owner="{FDEFC274-9FBF-4B01-9CF2-C757DD1F8A6B}">
+							<Child Name="linkLogOut" Owner="{C3589F37-06FD-449A-8AF8-B25602213F8F}" />
 						</Child>
 					</Child>
 				</Child>
