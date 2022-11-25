@@ -1,4 +1,4 @@
-# Template_Python_Project
+# Python_Training_Project
 
 This readme file is a basic outline of potential talking points regarding a given project.
 
