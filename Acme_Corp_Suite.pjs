@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{2C95C6BE-8E52-4877-B3C4-56A52C8FBB75}">
+	<children>
+		<folder name="Templates">
+			<child name="Template_Python_Project" key="{F0DDED2C-A91E-4838-ABD2-B9FFC6FB8232}" path="Template_Python_Project\Template_Python_Project.mds" />
+		</folder>
+		<folder name="Training">
+			<child name="Python_Training_Project" key="{31FDCDDC-2200-43D1-A211-4002CB7BD30B}" path="Python_Training_Project\Python_Training_Project.mds" />
+		</folder>
+	</children>
+	<testItems key="{DDD45D64-CD01-4097-BB45-73BBE481B4A2}">
+		<children>
+			<testItem key="{31FDCDDC-2200-43D1-A211-4002CB7BD30B}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{F0DDED2C-A91E-4838-ABD2-B9FFC6FB8232}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{0A7E415B-7573-472D-AF5C-2232995F5BB0}" />
+	<analysis key="{E7DF97E7-DC54-4E81-A090-8132D027A9C9}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
