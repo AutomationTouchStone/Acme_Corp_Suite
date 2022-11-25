@@ -14,5 +14,7 @@
 		<child name="Test_Login_Fail" key="{2E8602DC-DE5C-49CE-865F-6F4C0B24B720}" path="Test_Login_Fail.tcKDTest" />
 		<child name="Mod_Login_Fail" key="{FC503A39-D0C0-418E-A99F-D7E0F3DCB0BF}" path="Mod_Login_Fail.tcKDTest" />
 		<child name="Mod_Register_User" key="{1D2CB01D-F89E-4E13-AFD8-E650523E6EE2}" path="Mod_Register_User.tcKDTest" />
+		<child name="Test_Login_Loop" key="{898142D2-EF74-4A6D-944D-A4BA4F1D731F}" path="Test_Login_Loop.tcKDTest" />
+		<child name="Mod_Login_Loop" key="{C8891D70-B20B-49BD-AEAD-A6428F671029}" path="Mod_Login_Loop.tcKDTest" />
 	</children>
 </Root>
