@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<folder name="Data_Files">
@@ -14,7 +14,22 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{5B12EE15-123E-4602-A25F-E1929E1AA3ED}" version="14">
 		<children>
-			<testItem name="Templates" key="{6737FDE8-BE16-47B3-B614-7114580D83C6}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Smartbear Web Store" key="{E42D63BC-C3FE-4CF7-B2D4-31107FDEF9ED}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Login_Fail" key="{BF750E21-DB4E-4CA8-8B3B-02C1AE5F0D42}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2E8602DC-DE5C-49CE-865F-6F4C0B24B720}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Register" key="{4D160764-3675-4026-ABB9-A20556692B25}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F9BEF92C-FAA1-4356-B95B-0F7FFACA730C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Templates" key="{6737FDE8-BE16-47B3-B614-7114580D83C6}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Sample_Web_App_Open" key="{C43F18F5-C2E3-4727-8379-18B871F65473}" group="False" parallel="False" enabled="True" testMoniker="KDT\{111A98E3-3231-4E13-9B14-B8CC0EA5ADD5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -68,6 +83,21 @@
 				</Variable>
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
+				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003300460034004400380038004200460035004500430039003900430037004600310044003000450041003400440033004200330038003000350035003400300043003800320032003100310041003600430034004200370039004400360042003700" />
+				</Variable>
+				<Variable Name="Password2" Type="Password" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="Password3" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003300460034004400380038004200460035004500430039003900430037004600310044003000450041003400440036003500330038003500420035003400300043003800320032003100310041003600430034004200300037004400360042003700" />
+				</Variable>
+				<Variable Name="Password4" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310036003300440030004600340044003800370033004600370038004300390038003200370039003400440041004600450046004200370044004500450031004400440032003100380038004200420030003100440039004200" />
+				</Variable>
+				<Variable Name="Password5" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003600330044003300460034004400380037003300460037003800430039003800320037003900340044004100460045004600420037004400420045003700390044003900440030003800350042003600" />
 				</Variable>
 			</Items>
 		</data>
