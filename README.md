@@ -13,7 +13,7 @@ This readme file is a basic outline of potential talking points regarding a give
 
 ## Asset Conventions
 
-The following topics detail asset conventions used for items within the TC_Head_Start_Suite
+The following topics detail asset conventions used for items within the Acme_Corp_Suite
 
 ### Project Suites and Projects
 
