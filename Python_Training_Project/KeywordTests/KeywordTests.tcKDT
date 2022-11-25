@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
-		<child name="EventControl_TestEngine_OnStartTest" key="{12DA7351-737D-491E-803C-6D4ED194CD0C}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
-		<child name="Test_Template" key="{F4330471-5F84-44CE-B15B-61A50EA71369}" path="Test_Template.tcKDTest" />
-		<child name="Mod_Template" key="{BB56F5F3-7872-4EC8-8D4A-0B7412FB71FB}" path="Mod_Template.tcKDTest" />
-		<child name="Keyword_Calling_Script_Test_Template" key="{A28BB0C2-2303-43B8-BDE6-399E19B41D72}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
-		<child name="Test_New_Function" key="{3C7267FC-8AEA-4271-B4F6-BB494E9EC1CF}" path="Test_New_Function.tcKDTest" />
-		<child name="Test_Sample_Web_App_Open" key="{111A98E3-3231-4E13-9B14-B8CC0EA5ADD5}" path="Test_Sample_Web_App_Open.tcKDTest" />
-		<child name="Test_Register" key="{F9BEF92C-FAA1-4356-B95B-0F7FFACA730C}" path="Test_Register.tcKDTest" />
-		<child name="Mod_Open_Edge_Browser" key="{B0845413-6C54-4596-A700-C9CAB37725D7}" path="Mod_Open_Edge_Browser.tcKDTest" />
-		<child name="Mod_Open_Smartbear_Webstore" key="{1A93B633-02EE-4DDE-90A6-B43B66DCE535}" path="Mod_Open_Smartbear_Webstore.tcKDTest" />
-		<child name="Mod_Close_Edge_Browser" key="{BB6FEB08-BD7D-4F3C-97C3-41FD0469F149}" path="Mod_Close_Edge_Browser.tcKDTest" />
-		<child name="Test_Login_Fail" key="{2E8602DC-DE5C-49CE-865F-6F4C0B24B720}" path="Test_Login_Fail.tcKDTest" />
-		<child name="Mod_Login_Fail" key="{FC503A39-D0C0-418E-A99F-D7E0F3DCB0BF}" path="Mod_Login_Fail.tcKDTest" />
-		<child name="Mod_Register_User" key="{1D2CB01D-F89E-4E13-AFD8-E650523E6EE2}" path="Mod_Register_User.tcKDTest" />
-		<child name="Test_Login_Loop" key="{898142D2-EF74-4A6D-944D-A4BA4F1D731F}" path="Test_Login_Loop.tcKDTest" />
-		<child name="Mod_Login_Loop" key="{C8891D70-B20B-49BD-AEAD-A6428F671029}" path="Mod_Login_Loop.tcKDTest" />
+		<folder name="Template_Tests">
+			<child name="EventControl_TestEngine_OnStartTest" key="{12DA7351-737D-491E-803C-6D4ED194CD0C}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
+			<child name="Keyword_Calling_Script_Test_Template" key="{A28BB0C2-2303-43B8-BDE6-399E19B41D72}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
+			<child name="Test_Template" key="{F4330471-5F84-44CE-B15B-61A50EA71369}" path="Test_Template.tcKDTest" />
+			<child name="Mod_Template" key="{BB56F5F3-7872-4EC8-8D4A-0B7412FB71FB}" path="Mod_Template.tcKDTest" />
+		</folder>
+		<folder name="Common">
+			<child name="Mod_Close_Edge_Browser" key="{BB6FEB08-BD7D-4F3C-97C3-41FD0469F149}" path="Mod_Close_Edge_Browser.tcKDTest" />
+			<child name="Mod_Login_Fail" key="{FC503A39-D0C0-418E-A99F-D7E0F3DCB0BF}" path="Mod_Login_Fail.tcKDTest" />
+			<child name="Mod_Login_Loop" key="{C8891D70-B20B-49BD-AEAD-A6428F671029}" path="Mod_Login_Loop.tcKDTest" />
+			<child name="Mod_Open_Edge_Browser" key="{B0845413-6C54-4596-A700-C9CAB37725D7}" path="Mod_Open_Edge_Browser.tcKDTest" />
+			<child name="Mod_Open_Smartbear_Webstore" key="{1A93B633-02EE-4DDE-90A6-B43B66DCE535}" path="Mod_Open_Smartbear_Webstore.tcKDTest" />
+			<child name="Mod_Register_User" key="{1D2CB01D-F89E-4E13-AFD8-E650523E6EE2}" path="Mod_Register_User.tcKDTest" />
+			<child name="Test_Login_Fail" key="{2E8602DC-DE5C-49CE-865F-6F4C0B24B720}" path="Test_Login_Fail.tcKDTest" />
+			<child name="Test_Login_Loop" key="{898142D2-EF74-4A6D-944D-A4BA4F1D731F}" path="Test_Login_Loop.tcKDTest" />
+			<child name="Test_New_Function" key="{3C7267FC-8AEA-4271-B4F6-BB494E9EC1CF}" path="Test_New_Function.tcKDTest" />
+			<child name="Test_Register" key="{F9BEF92C-FAA1-4356-B95B-0F7FFACA730C}" path="Test_Register.tcKDTest" />
+			<child name="Test_Sample_Web_App_Open" key="{111A98E3-3231-4E13-9B14-B8CC0EA5ADD5}" path="Test_Sample_Web_App_Open.tcKDTest" />
+		</folder>
 	</children>
 </Root>

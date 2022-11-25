@@ -1,10 +1,24 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
-		<child name="EventControl_TestEngine_OnStartTest" key="{32DEB405-8C40-464E-98C4-1D467B54F7E2}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
-		<child name="Test_Template" key="{F565F05F-272E-4B27-A234-A5EB4C878B81}" path="Test_Template.tcKDTest" />
-		<child name="Mod_Template" key="{516C537E-F90A-49F3-BB99-0561F22B45C7}" path="Mod_Template.tcKDTest" />
-		<child name="Keyword_Calling_Script_Test_Template" key="{D9BDB045-FDF5-4635-8E11-7C9E9A145D51}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
-		<child name="Test_New_Function" key="{4C8280FB-8964-4E15-BD7C-374464CE217F}" path="Test_New_Function.tcKDTest" />
+		<folder name="Templates">
+			<child name="EventControl_TestEngine_OnStartTest" key="{32DEB405-8C40-464E-98C4-1D467B54F7E2}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
+			<child name="Keyword_Calling_Script_Test_Template" key="{D9BDB045-FDF5-4635-8E11-7C9E9A145D51}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
+			<child name="Test_Template" key="{F565F05F-272E-4B27-A234-A5EB4C878B81}" path="Test_Template.tcKDTest" />
+			<child name="Mod_Template" key="{516C537E-F90A-49F3-BB99-0561F22B45C7}" path="Mod_Template.tcKDTest" />
+		</folder>
+		<folder name="Common">
+			<child name="Mod_Close_Edge_Browser" key="{3D2DC209-9679-4A36-A7A2-9E6C1DC1E026}" path="Mod_Close_Edge_Browser.tcKDTest" />
+			<child name="Mod_Login_Fail" key="{568E1177-590E-44DA-87F0-1BC1682B9556}" path="Mod_Login_Fail.tcKDTest" />
+			<child name="Mod_Login_Loop" key="{ED0E5A88-BAE0-4D40-85FA-48A4FA6C9A8B}" path="Mod_Login_Loop.tcKDTest" />
+			<child name="Mod_Open_Edge_Browser" key="{A6C0CB4C-17A6-4E4F-8860-80E3E14F3CE9}" path="Mod_Open_Edge_Browser.tcKDTest" />
+			<child name="Mod_Open_Smartbear_Webstore" key="{4A71A3A4-0466-4AC1-B87B-71A25BC7EB74}" path="Mod_Open_Smartbear_Webstore.tcKDTest" />
+			<child name="Mod_Register_User" key="{B968938F-753A-4085-9277-30BEABCCFBB9}" path="Mod_Register_User.tcKDTest" />
+			<child name="Test_Login_Fail" key="{59C97565-4575-4DCD-B391-4ED7B7B05835}" path="Test_Login_Fail.tcKDTest" />
+			<child name="Test_Login_Loop" key="{EFCBF8EC-081D-4585-A49D-7D7F19777589}" path="Test_Login_Loop.tcKDTest" />
+			<child name="Test_New_Function" key="{4C8280FB-8964-4E15-BD7C-374464CE217F}" path="Test_New_Function.tcKDTest" />
+			<child name="Test_Register" key="{185B77D9-E1CE-4F38-932D-0D733AE7C287}" path="Test_Register.tcKDTest" />
+			<child name="Test_Sample_Web_App_Open" key="{3D584290-9803-47CB-897C-981847DA94ED}" path="Test_Sample_Web_App_Open.tcKDTest" />
+		</folder>
 	</children>
 </Root>
