@@ -14,7 +14,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{ECD1829D-5CE4-415B-BA6A-132F09322908}" version="14">
 		<children>
-			<testItem name="Smartbear Web Store" key="{68DD44FF-47A7-4DAB-8BAF-5630485A77A0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Smartbear Web Store" key="{68DD44FF-47A7-4DAB-8BAF-5630485A77A0}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Login_Fail" key="{5FA96470-5D04-405B-91C2-F689F188102B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{59C97565-4575-4DCD-B391-4ED7B7B05835}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -23,26 +23,6 @@
 						<children />
 					</testItem>
 					<testItem name="Test_Register" key="{1012F5BA-E6AE-40C9-B5B4-EACDCF9BBC02}" group="False" parallel="False" enabled="True" testMoniker="KDT\{185B77D9-E1CE-4F38-932D-0D733AE7C287}" count="2" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Dev_A" key="{358C86A8-A21B-4FA9-AFF1-7AD04FED9C77}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Test_Dev_A" key="{13E61805-8681-4C4E-AC83-A49B2E1ED534}" group="False" parallel="False" enabled="True" testMoniker="KDT\{96E6B60B-6157-4432-8375-4C13A6CE61C1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Dev_B_Tests" key="{86DF3E23-F691-4A25-8F6A-222B6E484C13}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Test_Dev_B" key="{80995F40-EC8D-483B-AFC0-FAB3BACE1785}" group="False" parallel="False" enabled="True" testMoniker="KDT\{76270088-BBBF-45B6-B968-25BC499A4685}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
