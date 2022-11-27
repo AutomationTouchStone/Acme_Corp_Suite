@@ -22,8 +22,6 @@
 		</folder>
 		<folder name="Dev_B_Tests">
 			<child name="Test_Dev_B" key="{76270088-BBBF-45B6-B968-25BC499A4685}" path="Test_Dev_B.tcKDTest" />
-		<folder name="Dev_A">
-			<child name="Test_Dev_A" key="{96E6B60B-6157-4432-8375-4C13A6CE61C1}" path="Test_Dev_A.tcKDTest" />
 		</folder>
 	</children>
 </Root>
