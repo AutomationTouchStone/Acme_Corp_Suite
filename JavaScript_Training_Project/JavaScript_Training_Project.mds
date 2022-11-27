@@ -17,12 +17,22 @@
 			<testItem name="Smartbear Web Store" key="{68DD44FF-47A7-4DAB-8BAF-5630485A77A0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Register" key="{1012F5BA-E6AE-40C9-B5B4-EACDCF9BBC02}" group="False" parallel="False" enabled="True" testMoniker="KDT\{185B77D9-E1CE-4F38-932D-0D733AE7C287}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Login_Fail" key="{5FA96470-5D04-405B-91C2-F689F188102B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{59C97565-4575-4DCD-B391-4ED7B7B05835}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Login_Fail" key="{5FA96470-5D04-405B-91C2-F689F188102B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{59C97565-4575-4DCD-B391-4ED7B7B05835}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Register" key="{1012F5BA-E6AE-40C9-B5B4-EACDCF9BBC02}" group="False" parallel="False" enabled="True" testMoniker="KDT\{185B77D9-E1CE-4F38-932D-0D733AE7C287}" count="2" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Dev_A" key="{358C86A8-A21B-4FA9-AFF1-7AD04FED9C77}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Dev_A" key="{13E61805-8681-4C4E-AC83-A49B2E1ED534}" group="False" parallel="False" enabled="True" testMoniker="KDT\{96E6B60B-6157-4432-8375-4C13A6CE61C1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -82,6 +92,15 @@
 					<DefValue />
 				</Variable>
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310036003300440030004600340044003800370033004600360045004300390039004300370039003400420041004600430046004200370039003800450031004400440032003100380038004200380038003100450036003000" />
+				</Variable>
+				<Variable Name="Password2" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100360033004400320046003400440038003700330046003600450043003900390043003700390034004200410046004300460042003700390038004500310044003800320037004300380034003600320030003800300034003600430039003400" />
+				</Variable>
+				<Variable Name="Password3" Type="Password" Local="False">
 					<DefValue />
 				</Variable>
 			</Items>
