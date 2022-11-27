@@ -39,6 +39,16 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Dev_B_Tests" key="{86DF3E23-F691-4A25-8F6A-222B6E484C13}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Dev_B" key="{80995F40-EC8D-483B-AFC0-FAB3BACE1785}" group="False" parallel="False" enabled="True" testMoniker="KDT\{76270088-BBBF-45B6-B968-25BC499A4685}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 			<testItem name="Templates" key="{AF7E463C-A374-4C85-9B9F-C3658FE48DDC}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>

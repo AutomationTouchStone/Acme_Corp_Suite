@@ -1049,6 +1049,188 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="browser" Key="{9D4E3079-ACB5-4155-9139-3D5515A34E32}">
+						<TypeInfo Item0="{240D503F-4DDB-4E6F-AAA2-F9132C6B9871}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageNews" Key="{FF6DA0EB-51BA-4586-8144-D9678C9784CB}">
+								<Image FileName="2038852515" Left="8" Top="111" Right="1928" Bottom="1086" />
+								<TypeInfo Item0="{14B4C675-9A54-4EAB-BACC-4A3BBFBA5A2B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/news" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{30E31A7B-68CF-4FF9-81AD-FEDC9919AB00}">
+										<Image FileName="2038852515" Left="390" Top="314" Right="1530" Bottom="1443" />
+										<TypeInfo Item0="{8E0F03C7-BB6F-4339-B4AF-C2B423F13B7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;News&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNews" Key="{7D16C1D3-D726-437E-929A-D6B4C8A1428E}">
+										<Image FileName="2038852515" Left="405" Top="314" Right="518" Bottom="362" />
+										<TypeInfo Item0="{8E0F03C7-BB6F-4339-B4AF-C2B423F13B7F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(text(), &apos;News&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;heading-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{EC42C570-CA3D-4CB0-9058-981876F93B05}">
+										<Image FileName="-183790291" Left="0" Top="103" Right="1903" Bottom="282" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{CB8A50F7-027E-4ABB-B956-8352AC2EEE27}">
+										<Image FileName="-183790291" Left="395" Top="179" Right="645" Bottom="210" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{3A94D690-E81B-4622-9EDC-2311938FA7B2}">
+										<Image FileName="-183790291" Left="395" Top="179" Right="645" Bottom="210" />
+										<TypeInfo Item0="{FFB022AF-4937-4066-9205-974D44156AAF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{3F7891BB-AFE0-4E0A-AD02-2AC2FAD6BFB6}">
+								<Image FileName="1095114392" Left="-8" Top="-8" Right="1928" Bottom="1088" />
+								<TypeInfo Item0="{218C7CE1-090F-404B-A84C-717C818DAFFD}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageShop" Key="{DBC46AE3-D43F-4323-9ADD-5E0C3120AF97}">
+								<Image FileName="1674911261" Left="0" Top="103" Right="1920" Bottom="1078" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{AAAB4713-729C-45A6-8899-B420CC409D7D}">
+										<Image FileName="1674911261" Left="0" Top="103" Right="1903" Bottom="282" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navUsd" Key="{2BAF76A3-F62F-4504-9F60-6D753FDFCA77}">
+										<Image FileName="1674911261" Left="397" Top="103" Right="1507" Bottom="155" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navNews" Key="{FB2CD07F-5869-48CD-904A-CF76C75CA078}">
+										<Image FileName="1674911261" Left="1293" Top="103" Right="1404" Bottom="155" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;menubar-group--special&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNews" Key="{1BCEEDAF-791B-46F4-B5DB-98D1C31B4AD3}">
+										<Image FileName="1674911261" Left="1293" Top="103" Right="1350" Bottom="155" />
+										<TypeInfo Item0="{FFB022AF-4937-4066-9205-974D44156AAF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;News&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//nav[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -1128,6 +1310,23 @@
 				</Child>
 			</Child>
 		</Child>
+		<Child Name="browser" Owner="{9D4E3079-ACB5-4155-9139-3D5515A34E32}">
+			<Child Name="pageNews" Owner="{FF6DA0EB-51BA-4586-8144-D9678C9784CB}">
+				<Child Name="sectionContent" Owner="{30E31A7B-68CF-4FF9-81AD-FEDC9919AB00}">
+					<Child Name="textnodeNews" Owner="{7D16C1D3-D726-437E-929A-D6B4C8A1428E}" />
+				</Child>
+				<Child Name="header" Owner="{EC42C570-CA3D-4CB0-9058-981876F93B05}">
+					<Child Name="link" Owner="{CB8A50F7-027E-4ABB-B956-8352AC2EEE27}">
+						<Child Name="imageSmartstore" Owner="{3A94D690-E81B-4622-9EDC-2311938FA7B2}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{3F7891BB-AFE0-4E0A-AD02-2AC2FAD6BFB6}" />
+			<Child Name="pageShop" Owner="{DBC46AE3-D43F-4323-9ADD-5E0C3120AF97}">
+				<Child Name="header" Owner="{AAAB4713-729C-45A6-8899-B420CC409D7D}">
+					<Child Name="navUsd" Owner="{2BAF76A3-F62F-4504-9F60-6D753FDFCA77}">
+						<Child Name="navNews" Owner="{FB2CD07F-5869-48CD-904A-CF76C75CA078}">
+							<Child Name="linkNews" Owner="{1BCEEDAF-791B-46F4-B5DB-98D1C31B4AD3}" />
 		<Child Name="browser" Owner="{B27A6507-9E50-4802-9836-FC1157D5A93C}">
 			<Child Name="pageBlog" Owner="{2C805991-24EE-43CB-9C65-6604DAD6C7FC}">
 				<Child Name="sectionContent" Owner="{3201CA75-11E8-4612-AFE7-4EA8A77F44F6}">

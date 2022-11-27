@@ -20,6 +20,8 @@
 			<child name="Test_Register" key="{185B77D9-E1CE-4F38-932D-0D733AE7C287}" path="Test_Register.tcKDTest" />
 			<child name="Test_Sample_Web_App_Open" key="{3D584290-9803-47CB-897C-981847DA94ED}" path="Test_Sample_Web_App_Open.tcKDTest" />
 		</folder>
+		<folder name="Dev_B_Tests">
+			<child name="Test_Dev_B" key="{76270088-BBBF-45B6-B968-25BC499A4685}" path="Test_Dev_B.tcKDTest" />
 		<folder name="Dev_A">
 			<child name="Test_Dev_A" key="{96E6B60B-6157-4432-8375-4C13A6CE61C1}" path="Test_Dev_A.tcKDTest" />
 		</folder>
