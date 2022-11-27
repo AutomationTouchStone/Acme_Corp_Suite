@@ -14,7 +14,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{ECD1829D-5CE4-415B-BA6A-132F09322908}" version="14">
 		<children>
-			<testItem name="Smartbear Web Store" key="{68DD44FF-47A7-4DAB-8BAF-5630485A77A0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Smartbear Web Store" key="{68DD44FF-47A7-4DAB-8BAF-5630485A77A0}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Register" key="{1012F5BA-E6AE-40C9-B5B4-EACDCF9BBC02}" group="False" parallel="False" enabled="True" testMoniker="KDT\{185B77D9-E1CE-4F38-932D-0D733AE7C287}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -34,7 +34,7 @@
 				<children>
 					<testItem name="Test_Dev_A" key="{13E61805-8681-4C4E-AC83-A49B2E1ED534}" group="False" parallel="False" enabled="True" testMoniker="KDT\{96E6B60B-6157-4432-8375-4C13A6CE61C1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
