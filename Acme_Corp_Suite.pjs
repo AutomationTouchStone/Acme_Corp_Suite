@@ -8,8 +8,8 @@
 		<folder name="Training">
 			<child name="Python_Training_Project" key="{31FDCDDC-2200-43D1-A211-4002CB7BD30B}" path="Python_Training_Project\Python_Training_Project.mds" />
 			<child name="JavaScript_Training_Project" key="{BD910DB2-0429-47A0-9217-B44E62673248}" path="JavaScript_Training_Project\JavaScript_Training_Project.mds" />
+			<child name="SC_Python_Project" key="{8C8A24A8-3BC9-4AEF-BFA0-FFF4255F2B07}" path="SC_Python_Project\SC_Python_Project.mds" />
 		</folder>
-		<child name="SC_Python_Project" key="{8C8A24A8-3BC9-4AEF-BFA0-FFF4255F2B07}" path="SC_Python_Project\SC_Python_Project.mds" />
 	</children>
 	<testItems key="{DDD45D64-CD01-4097-BB45-73BBE481B4A2}">
 		<children>
