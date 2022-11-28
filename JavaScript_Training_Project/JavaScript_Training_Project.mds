@@ -29,7 +29,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Templates" key="{AF7E463C-A374-4C85-9B9F-C3658FE48DDC}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Templates" key="{AF7E463C-A374-4C85-9B9F-C3658FE48DDC}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Template" key="{12EAAE99-F1A3-4F70-AD14-E1E07B91CC9C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F565F05F-272E-4B27-A234-A5EB4C878B81}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -37,9 +37,9 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Keyword_Calling_Script_Test_Template" key="{CC395B25-ACC7-4BA1-AD66-898FE42F43B5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D9BDB045-FDF5-4635-8E11-7C9E9A145D51}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Keyword_Calling_Script_Test_Template" key="{CC395B25-ACC7-4BA1-AD66-898FE42F43B5}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D9BDB045-FDF5-4635-8E11-7C9E9A145D51}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Script_Test_Template" key="{C5EFDE20-2E7F-40EC-AA92-285BC1110570}" group="False" parallel="False" enabled="True" testMoniker="{687E8568-C1C4-403D-991D-FD812B5A2954}Script_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
