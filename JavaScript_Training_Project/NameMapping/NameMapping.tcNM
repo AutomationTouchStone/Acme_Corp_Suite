@@ -845,6 +845,78 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="browser" Key="{65E5CB21-3EFF-493B-84C3-1E9FB125E0DD}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{F947BC2F-2798-455D-9471-0922AD599F9D}">
+								<Image FileName="-746923747" Left="-8" Top="-8" Right="1368" Bottom="776" />
+								<TypeInfo Item0="{42EFF6D0-3848-4A91-A411-7B9C4E9975A7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageShopRecentlyAddedProducts" Key="{1D3544AB-61D4-4B4F-A5D0-7F22C70FDB01}">
+								<Image FileName="1883400965" Left="0" Top="103" Right="1360" Bottom="766" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/newproducts" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{985C37C9-57D9-4188-80E6-96CC957143E8}">
+										<Image FileName="1883400965" Left="102" Top="306" Right="1242" Bottom="5055" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &quot;What&apos;s New&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWhatSNew" Key="{43A178B2-081F-47B0-BF51-CE817DC24F6F}">
+										<Image FileName="1883400965" Left="117" Top="306" Right="344" Bottom="354" />
+										<TypeInfo Item0="{459E0252-5789-44E9-885B-06707B104BB2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&quot;What&apos;s New&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;heading-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -921,6 +993,14 @@
 				</Child>
 				<Child Name="sectionContent" Owner="{FDCA1C13-D4AC-455A-9B1F-3F09AD28E928}">
 					<Child Name="textnodeWelcomeToOurStore" Owner="{BB8165A0-AF00-4A94-918B-C2E7F99E36E5}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{65E5CB21-3EFF-493B-84C3-1E9FB125E0DD}">
+			<Child Name="BrowserWindow" Owner="{F947BC2F-2798-455D-9471-0922AD599F9D}" />
+			<Child Name="pageShopRecentlyAddedProducts" Owner="{1D3544AB-61D4-4B4F-A5D0-7F22C70FDB01}">
+				<Child Name="sectionContent" Owner="{985C37C9-57D9-4188-80E6-96CC957143E8}">
+					<Child Name="textnodeWhatSNew" Owner="{43A178B2-081F-47B0-BF51-CE817DC24F6F}" />
 				</Child>
 			</Child>
 		</Child>

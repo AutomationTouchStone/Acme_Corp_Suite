@@ -20,5 +20,6 @@
 			<child name="Test_Register" key="{185B77D9-E1CE-4F38-932D-0D733AE7C287}" path="Test_Register.tcKDTest" />
 			<child name="Test_Sample_Web_App_Open" key="{3D584290-9803-47CB-897C-981847DA94ED}" path="Test_Sample_Web_App_Open.tcKDTest" />
 		</folder>
+		<child name="Test_Corey" key="{342BA529-2D60-417A-BA5D-A6D5C59A211C}" path="Test_Corey.tcKDTest" />
 	</children>
 </Root>

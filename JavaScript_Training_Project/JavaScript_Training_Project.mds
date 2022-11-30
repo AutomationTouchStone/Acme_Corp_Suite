@@ -54,6 +54,16 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Corey_Tests" key="{A8E66F52-4571-40E6-B942-50BB60611211}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Corey" key="{41B99878-4F80-4BF8-90F7-3E09EE6A8631}" group="False" parallel="False" enabled="True" testMoniker="KDT\{342BA529-2D60-417A-BA5D-A6D5C59A211C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{C9436072-03E4-44A5-9A9C-BC4FEC4B3498}">
