@@ -845,6 +845,60 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="ApplicationFrameHost" Key="{E199A3FD-B057-4BD7-830A-019CC27B9E2C}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ApplicationFrameHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndCortana" Key="{3362D0D0-BD5E-49FF-8AF9-EBA8ADDA80E4}">
+								<Image FileName="-514218919" Left="0" Top="0" Right="424" Bottom="743" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Cortana" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{5116247C-CDBC-4FF6-AAFF-C7C5A09363A4}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{14792F03-9412-4277-8FEC-BE1EFD6DCEE2}">
+								<Image FileName="-2037600999" Left="-8" Top="-8" Right="1928" Bottom="1088" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{003E5E4D-FAB0-4001-B4A8-A44191D0762F}">
+										<Image FileName="-1451370263" Left="0" Top="103" Right="1920" Bottom="1078" />
+										<TypeInfo Item0="{3C1DA994-210C-431B-B38A-A1526630108F}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -922,6 +976,14 @@
 				<Child Name="sectionContent" Owner="{FDCA1C13-D4AC-455A-9B1F-3F09AD28E928}">
 					<Child Name="textnodeWelcomeToOurStore" Owner="{BB8165A0-AF00-4A94-918B-C2E7F99E36E5}" />
 				</Child>
+			</Child>
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{E199A3FD-B057-4BD7-830A-019CC27B9E2C}">
+			<Child Name="wndCortana" Owner="{3362D0D0-BD5E-49FF-8AF9-EBA8ADDA80E4}" />
+		</Child>
+		<Child Name="browser" Owner="{5116247C-CDBC-4FF6-AAFF-C7C5A09363A4}">
+			<Child Name="BrowserWindow" Owner="{14792F03-9412-4277-8FEC-BE1EFD6DCEE2}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{003E5E4D-FAB0-4001-B4A8-A44191D0762F}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
