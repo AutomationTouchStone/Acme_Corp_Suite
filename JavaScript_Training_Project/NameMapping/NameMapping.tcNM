@@ -1002,7 +1002,5 @@
 				<Child Name="sectionContent" Owner="{985C37C9-57D9-4188-80E6-96CC957143E8}">
 					<Child Name="textnodeWhatSNew" Owner="{43A178B2-081F-47B0-BF51-CE817DC24F6F}" />
 				</Child>
-			</Child>
-		</Child>
 	</LogicalNodes>
 </Root>
