@@ -15,5 +15,7 @@
 		<child name="Mod_Open_Webstore_Edge" key="{10AD219D-0BEC-4659-A14C-FD95306E3061}" path="Mod_Open_Webstore_Edge.tcKDTest" />
 		<child name="Mod_Login_Fail" key="{27AD0D02-3241-4B1C-9E52-0383FD139AEE}" path="Mod_Login_Fail.tcKDTest" />
 		<child name="Mod_Loop_Browsers" key="{3451A3FE-A79E-4151-8FC7-7CD8E8550A10}" path="Mod_Loop_Browsers.tcKDTest" />
+		<child name="Test_Newsfeed" key="{818F1CAA-7E9F-4A71-BF9E-0861CC987A6F}" path="Test_Newsfeed.tcKDTest" />
+		<child name="Mod_Open_Newsfeed" key="{02368CDA-D1BF-4C7C-BE96-CD6868AD22F9}" path="Mod_Open_Newsfeed.tcKDTest" />
 	</children>
 </Root>

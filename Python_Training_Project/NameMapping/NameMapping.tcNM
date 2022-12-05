@@ -137,6 +137,29 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="navNews" Key="{D3C70B46-0FBC-403F-A932-442212BED7AD}">
+										<Image FileName="-1863310159" Left="1293" Top="103" Right="1404" Bottom="155" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;menubar-group--special&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNews" Key="{477D0B3C-A1AF-44AE-8998-A3809AED4BB7}">
+										<Image FileName="-1863310159" Left="1293" Top="103" Right="1350" Bottom="155" />
+										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;News&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//nav[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{9919882A-A93E-4716-A020-7E41C64F1AEA}">
@@ -664,77 +687,54 @@
 									</Child>
 								</Children>
 							</Child>
-						</Children>
-					</Child>
-					<Child Name="firefox" Key="{B6C83434-E777-4931-AF92-FC63C3F688DF}">
-						<Properties>
-							<Property Name="ProcessName">
-								<Value Value="firefox" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="wndMozillaWindowClass" Key="{76C0D5D9-5400-4273-A413-184B04E2CD53}">
-								<TypeInfo Item0="{B5A6B90C-8B73-4D59-85A3-B68772BA5E5A}" />
+							<Child Name="pageNews" Key="{BFF5794B-80A2-4188-BC7D-BE16BD71E036}">
+								<Image FileName="1541931389" Left="0" Top="103" Right="1920" Bottom="1078" />
 								<Properties>
-									<Property Name="WndClass">
-										<Value Value="MozillaWindowClass" />
+									<Property Name="ObjectType">
+										<Value Value="Page" />
 									</Property>
-									<Property Name="WndCaption">
-										<Value Value="Mozilla Firefox" />
-									</Property>
-								</Properties>
-							</Child>
-						</Children>
-					</Child>
-					<Child Name="explorer" Key="{F6B0BD53-501A-412E-B3A8-1B5BF0774AC1}">
-						<Properties>
-							<Property Name="ProcessName">
-								<Value Value="explorer" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="wndShell_TrayWnd" Key="{278D7676-879F-427A-B7B3-7394224196FA}">
-								<Image FileName="1874652455" Left="0" Top="0" Right="1920" Bottom="40" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="Shell_TrayWnd" />
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/news" />
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="ReBarWindow32" Key="{EF8A6F34-8DB2-4881-A2BA-D7BB71BF0A6F}">
-										<Image FileName="1874652455" Left="390" Top="0" Right="1659" Bottom="40" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="ReBarWindow32" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="MSTaskSwWClass" Key="{88D41EFC-5559-4A45-89BA-96088A98FCC0}">
-												<Image FileName="1874652455" Left="392" Top="0" Right="1659" Bottom="40" />
-												<Properties>
-													<Property Name="WndClass">
-														<Value Value="MSTaskSwWClass" />
-													</Property>
-													<Property Name="WndCaption">
-														<Value Value="Running applications" />
-													</Property>
-												</Properties>
-												<Children>
-													<Child Name="MSTaskListWClass" Key="{069DF2D2-EBE3-431C-A3B0-B5985DB1D8D2}">
-														<Image FileName="1874652455" Left="392" Top="0" Right="1659" Bottom="40" />
-														<TypeInfo Item0="{6E9FEF4E-1746-4814-BA56-41C2225F1135}" />
-														<Properties>
-															<Property Name="WndClass">
-																<Value Value="MSTaskListWClass" />
-															</Property>
-															<Property Name="WndCaption">
-																<Value Value="Running applications" />
-															</Property>
-														</Properties>
-													</Child>
-												</Children>
-											</Child>
-										</Children>
+									<Child Name="sectionContent" Key="{4DA9AE2B-7AA4-4D04-B217-D826A7BDB4C9}">
+										<Image FileName="1541931389" Left="382" Top="306" Right="1522" Bottom="1435" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;News&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNews" Key="{376E7070-E6F0-44A2-8183-E170A812ED0C}">
+										<Image FileName="1541931389" Left="397" Top="306" Right="510" Bottom="354" />
+										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(text(), &apos;News&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;heading-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
 									</Child>
 								</Children>
 							</Child>
@@ -752,6 +752,9 @@
 					<Child Name="navUsd" Owner="{AD05E0B0-61D9-4D49-A795-003FCAE3203A}">
 						<Child Name="linkLogIn" Owner="{EDD23C03-16D3-483D-9035-705D633381EE}">
 							<Child Name="textnodeLogIn" Owner="{40C74A00-BA1C-4852-9400-1A218CB00E4D}" />
+						</Child>
+						<Child Name="navNews" Owner="{D3C70B46-0FBC-403F-A932-442212BED7AD}">
+							<Child Name="linkNews" Owner="{477D0B3C-A1AF-44AE-8998-A3809AED4BB7}" />
 						</Child>
 					</Child>
 				</Child>
@@ -808,16 +811,9 @@
 					</Child>
 				</Child>
 			</Child>
-		</Child>
-		<Child Name="firefox" Owner="{B6C83434-E777-4931-AF92-FC63C3F688DF}">
-			<Child Name="wndMozillaWindowClass" Owner="{76C0D5D9-5400-4273-A413-184B04E2CD53}" />
-		</Child>
-		<Child Name="explorer" Owner="{F6B0BD53-501A-412E-B3A8-1B5BF0774AC1}">
-			<Child Name="wndShell_TrayWnd" Owner="{278D7676-879F-427A-B7B3-7394224196FA}">
-				<Child Name="ReBarWindow32" Owner="{EF8A6F34-8DB2-4881-A2BA-D7BB71BF0A6F}">
-					<Child Name="MSTaskSwWClass" Owner="{88D41EFC-5559-4A45-89BA-96088A98FCC0}">
-						<Child Name="MSTaskListWClass" Owner="{069DF2D2-EBE3-431C-A3B0-B5985DB1D8D2}" />
-					</Child>
+			<Child Name="pageNews" Owner="{BFF5794B-80A2-4188-BC7D-BE16BD71E036}">
+				<Child Name="sectionContent" Owner="{4DA9AE2B-7AA4-4D04-B217-D826A7BDB4C9}">
+					<Child Name="textnodeNews" Owner="{376E7070-E6F0-44A2-8183-E170A812ED0C}" />
 				</Child>
 			</Child>
 		</Child>
