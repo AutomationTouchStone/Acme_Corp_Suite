@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<folder name="Data_Files">
@@ -14,7 +14,7 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{5B12EE15-123E-4602-A25F-E1929E1AA3ED}" version="14">
 		<children>
-			<testItem name="Templates" key="{6737FDE8-BE16-47B3-B614-7114580D83C6}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Templates" key="{6737FDE8-BE16-47B3-B614-7114580D83C6}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Sample_Web_App_Open" key="{C43F18F5-C2E3-4727-8379-18B871F65473}" group="False" parallel="False" enabled="True" testMoniker="KDT\{111A98E3-3231-4E13-9B14-B8CC0EA5ADD5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -49,6 +49,16 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="KMJ_Laptop_Branch" key="{7AB3D8D0-F2B4-446E-ACEC-D5B3C9FC0BBA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Web_App_Login_Fail" key="{AC09E3E4-63AD-4E17-9029-F45C5B34C22A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D13DA37E-DCB7-46AD-B623-3B04E6C620BB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{9E5A3438-4404-46E8-9CA4-EF98F0CE3BDD}">
@@ -69,11 +79,14 @@
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
 				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310045003300440032004600340044003800410042004600350038004300390041004100370039003600310032003900380043004500390033004200460032004200" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{9575E5FA-0787-42B2-944E-8603E977DEDA}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.46" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
