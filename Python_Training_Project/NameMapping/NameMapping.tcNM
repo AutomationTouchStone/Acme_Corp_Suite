@@ -85,7 +85,6 @@
 									</Child>
 									<Child Name="textnodeLogIn" Key="{40C74A00-BA1C-4852-9400-1A218CB00E4D}">
 										<Image FileName="199958983" Left="1448" Top="120" Right="1496" Bottom="137" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Log in&apos;]" />
@@ -100,7 +99,6 @@
 									</Child>
 									<Child Name="sectionContent" Key="{766EE83A-B06A-4773-9937-1AAC4D92FBA6}">
 										<Image FileName="14165054" Left="390" Top="-972" Right="1530" Bottom="1199" />
-										<TypeInfo Item0="{3B2ED5C1-FEE6-4D2C-B641-60F1F05AAA16}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content" />
@@ -121,7 +119,6 @@
 									</Child>
 									<Child Name="textnodeWelcomeToOurStore" Key="{A859E421-CC6E-484B-A1C1-F782CE445BC7}">
 										<Image FileName="14165054" Left="405" Top="-972" Right="1515" Bottom="-934" />
-										<TypeInfo Item0="{3B2ED5C1-FEE6-4D2C-B641-60F1F05AAA16}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[.=&apos;Welcome to our store.&apos;]" />
@@ -137,11 +134,27 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="navNews" Key="{73BD9D0E-4CD9-47E9-AD76-7D632572A07C}">
+										<Image FileName="1455355708" Left="1012" Top="103" Right="1123" Bottom="155" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;menubar-group--special&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBlog" Key="{209F1665-A25E-4506-92E9-5A4DF3FCCA2C}">
+										<Image FileName="1455355708" Left="1069" Top="103" Right="1123" Bottom="155" />
+										<TypeInfo Item0="{70EF136D-E68E-4F63-881C-3FAECF7CD939}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Blog&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{9919882A-A93E-4716-A020-7E41C64F1AEA}">
 								<Image FileName="199958983" Left="0" Top="103" Right="1920" Bottom="1078" />
-								<TypeInfo Item0="{EE2868D9-3350-41C1-AC24-B6985CFED4D7}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -181,7 +194,6 @@
 									</Child>
 									<Child Name="imageSmartstore" Key="{98827D85-805A-4CB1-BE9D-14689A024C06}">
 										<Image FileName="988676347" Left="395" Top="179" Right="645" Bottom="210" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
@@ -213,7 +225,6 @@
 									</Child>
 									<Child Name="textnodeProducts" Key="{70A25D7A-A3A7-45AA-9BC9-E7A4CF79C2F1}">
 										<Image FileName="-548299072" Left="1247" Top="193" Right="1301" Bottom="210" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//strong[.=&apos;Products&apos;]" />
@@ -228,7 +239,6 @@
 									</Child>
 									<Child Name="panel" Key="{E13E8608-2929-4166-81CB-ABBA6530DAB7}">
 										<Image FileName="1639916528" Left="-1536" Top="103" Right="2304" Bottom="1078" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;canvas-blocker&apos;)]" />
@@ -251,7 +261,6 @@
 									</Child>
 									<Child Name="textnodeList" Key="{68F453C7-E41A-40D5-8795-37E15D350716}">
 										<Image FileName="2021263116" Left="1359" Top="193" Right="1380" Bottom="210" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//strong[.=&apos;List&apos;]" />
@@ -280,7 +289,6 @@
 									</Child>
 									<Child Name="textnodeBasket" Key="{97C38618-D2CA-4059-B160-73E5D385AA0F}">
 										<Image FileName="-1051182594" Left="1444" Top="193" Right="1484" Bottom="210" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//strong[.=&apos;Basket&apos;]" />
@@ -315,7 +323,6 @@
 									</Child>
 									<Child Name="textnodeSignIn" Key="{1144BF6F-7E36-4AB3-A868-2FF207B9F0E0}">
 										<Image FileName="1197034191" Left="397" Top="306" Right="1507" Bottom="354" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[.=&apos;Sign In&apos;]" />
@@ -330,7 +337,6 @@
 									</Child>
 									<Child Name="textnodeNotRegisteredYet" Key="{40EBB45E-361F-43EC-9800-C5DE8FE3B36C}">
 										<Image FileName="1197034191" Left="397" Top="405" Right="549" Bottom="429" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//strong[.=&apos;Not registered yet?&apos;]" />
@@ -345,7 +351,6 @@
 									</Child>
 									<Child Name="textnodeCreateYourOwnAccountNowA" Key="{1AE614FB-EB11-4A12-94D0-7F9B12B79EE3}">
 										<Image FileName="1197034191" Left="397" Top="447" Right="1032" Bottom="528" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//p[contains(text(), &apos;perfect overview of your current and previous orders.&apos;)]" />
@@ -354,7 +359,6 @@
 									</Child>
 									<Child Name="linkRegister" Key="{A4331080-B3D5-491D-89C8-0F2601394C9E}">
 										<Image FileName="500882436" Left="397" Top="568" Right="506" Bottom="619" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//a[contains(text(), &apos;Register&apos;)]" />
@@ -372,7 +376,6 @@
 									</Child>
 									<Child Name="textnodeIAmAlreadyRegistered" Key="{A54B977E-5810-4835-AE52-A8D43753DF54}">
 										<Image FileName="-1457294030" Left="1092" Top="415" Right="1475" Bottom="439" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h3[contains(text(), &apos;I am already registered&apos;)]" />
@@ -390,7 +393,6 @@
 									</Child>
 									<Child Name="textboxUsernameoremail" Key="{2B492847-AA65-4D4F-99D9-8D08939639BF}">
 										<Image FileName="-1457294030" Left="1092" Top="488" Right="1475" Bottom="539" />
-										<TypeInfo Item0="{E53EFD54-4FB8-4809-A9F9-7F54F59DAAE6}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#UsernameOrEmail" />
@@ -414,7 +416,6 @@
 									</Child>
 									<Child Name="passwordboxPassword" Key="{1573D042-E4AD-4BB1-995E-F356D3BFD29F}">
 										<Image FileName="-1142023876" Left="1092" Top="555" Right="1475" Bottom="606" />
-										<TypeInfo Item0="{E53EFD54-4FB8-4809-A9F9-7F54F59DAAE6}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#Password" />
@@ -438,7 +439,6 @@
 									</Child>
 									<Child Name="labelRememberMe" Key="{992AD5EC-FA3B-4552-AA54-8E5B00853E37}">
 										<Image FileName="-1022821623" Left="1112" Top="623" Right="1216" Bottom="646" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//label[.=&apos;Remember me?&apos;]" />
@@ -456,7 +456,6 @@
 									</Child>
 									<Child Name="linkForgotPassword" Key="{4449AB08-526E-4C96-8D45-44D336925793}">
 										<Image FileName="341171739" Left="1358" Top="624" Right="1476" Bottom="644" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//a[.=&apos;Forgot password?&apos;]" />
@@ -471,7 +470,6 @@
 									</Child>
 									<Child Name="buttonLogIn" Key="{359E5EC7-17BF-49A5-9352-94B56196099B}">
 										<Image FileName="-1461894739" Left="1092" Top="661" Right="1475" Bottom="712" />
-										<TypeInfo Item0="{1FAE7971-B2B3-41DC-A942-954007BD52A8}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//button[contains(text(), &apos;Log in&apos;)]" />
@@ -492,7 +490,6 @@
 									</Child>
 									<Child Name="textnodeTheCredentialsProvidedAr" Key="{1256BE21-C682-425C-9D77-42FB4E4FFA59}">
 										<Image FileName="1513021559" Left="1176" Top="545" Right="1456" Bottom="568" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//li[.=&apos;The credentials provided are incorrect&apos;]" />
@@ -507,7 +504,6 @@
 									</Child>
 									<Child Name="textnodeLoginWasUnsuccessfulPlea" Key="{E449E288-6FA2-4927-8810-F359AF9568FB}">
 										<Image FileName="1513021559" Left="1156" Top="501" Right="1434" Bottom="544" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Login was unsuccessful. Please correct the errors and try again.&apos;]" />
@@ -524,7 +520,6 @@
 							</Child>
 							<Child Name="pageRegister" Key="{0786B07B-CA36-4F7D-BB36-ED56E1B2187B}">
 								<Image FileName="199958983" Left="0" Top="103" Right="1920" Bottom="1078" />
-								<TypeInfo Item0="{EE2868D9-3350-41C1-AC24-B6985CFED4D7}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -578,7 +573,6 @@
 									</Child>
 									<Child Name="textnodeLogIn" Key="{DD4C1FB4-E716-4DF9-81B0-AA219EA1464E}">
 										<Image FileName="-2138569805" Left="1448" Top="120" Right="1496" Bottom="137" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Log in&apos;]" />
@@ -595,7 +589,6 @@
 							</Child>
 							<Child Name="pagePasswordrecovery" Key="{A5CE9CB6-EA31-48CD-B515-F59CD730556F}">
 								<Image FileName="199958983" Left="0" Top="103" Right="1920" Bottom="1078" />
-								<TypeInfo Item0="{EE2868D9-3350-41C1-AC24-B6985CFED4D7}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -649,7 +642,6 @@
 									</Child>
 									<Child Name="textnodeLogIn" Key="{057B4253-BA52-4949-BA4E-CC4A047C4AB6}">
 										<Image FileName="73397112" Left="1457" Top="120" Right="1505" Bottom="137" />
-										<TypeInfo Item0="{1EC39E45-BA1A-47E4-9148-FDDCE38D028E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Log in&apos;]" />
@@ -664,77 +656,100 @@
 									</Child>
 								</Children>
 							</Child>
-						</Children>
-					</Child>
-					<Child Name="firefox" Key="{B6C83434-E777-4931-AF92-FC63C3F688DF}">
-						<Properties>
-							<Property Name="ProcessName">
-								<Value Value="firefox" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="wndMozillaWindowClass" Key="{76C0D5D9-5400-4273-A413-184B04E2CD53}">
-								<TypeInfo Item0="{B5A6B90C-8B73-4D59-85A3-B68772BA5E5A}" />
+							<Child Name="pageBlog" Key="{BA7201A1-50CF-4103-858C-DB6543E7BF98}">
+								<TypeInfo Item0="{611D10AB-629A-4FB5-A45E-9C557C4DB3B5}" />
 								<Properties>
-									<Property Name="WndClass">
-										<Value Value="MozillaWindowClass" />
+									<Property Name="ObjectType">
+										<Value Value="Page" />
 									</Property>
-									<Property Name="WndCaption">
-										<Value Value="Mozilla Firefox" />
-									</Property>
-								</Properties>
-							</Child>
-						</Children>
-					</Child>
-					<Child Name="explorer" Key="{F6B0BD53-501A-412E-B3A8-1B5BF0774AC1}">
-						<Properties>
-							<Property Name="ProcessName">
-								<Value Value="explorer" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="wndShell_TrayWnd" Key="{278D7676-879F-427A-B7B3-7394224196FA}">
-								<Image FileName="1874652455" Left="0" Top="0" Right="1920" Bottom="40" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="Shell_TrayWnd" />
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/blog" />
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="ReBarWindow32" Key="{EF8A6F34-8DB2-4881-A2BA-D7BB71BF0A6F}">
-										<Image FileName="1874652455" Left="390" Top="0" Right="1659" Bottom="40" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="ReBarWindow32" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="MSTaskSwWClass" Key="{88D41EFC-5559-4A45-89BA-96088A98FCC0}">
-												<Image FileName="1874652455" Left="392" Top="0" Right="1659" Bottom="40" />
-												<Properties>
-													<Property Name="WndClass">
-														<Value Value="MSTaskSwWClass" />
-													</Property>
-													<Property Name="WndCaption">
-														<Value Value="Running applications" />
-													</Property>
-												</Properties>
-												<Children>
-													<Child Name="MSTaskListWClass" Key="{069DF2D2-EBE3-431C-A3B0-B5985DB1D8D2}">
-														<Image FileName="1874652455" Left="392" Top="0" Right="1659" Bottom="40" />
-														<TypeInfo Item0="{6E9FEF4E-1746-4814-BA56-41C2225F1135}" />
-														<Properties>
-															<Property Name="WndClass">
-																<Value Value="MSTaskListWClass" />
-															</Property>
-															<Property Name="WndCaption">
-																<Value Value="Running applications" />
-															</Property>
-														</Properties>
-													</Child>
-												</Children>
-											</Child>
-										</Children>
+									<Child Name="sectionContent" Key="{B255108F-B3C8-44A0-8CAB-0028ADAF1EA9}">
+										<Image FileName="1037681707" Left="101" Top="306" Right="1241" Bottom="1865" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Blog&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBlog" Key="{A6B21307-63F5-441D-978F-F88D3A24B947}">
+										<Image FileName="1037681707" Left="116" Top="306" Right="188" Bottom="340" />
+										<TypeInfo Item0="{70EF136D-E68E-4F63-881C-3FAECF7CD939}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[contains(text(), &apos;Blog&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;heading-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div/div/div/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//div//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{33009896-EC3B-445A-B1C4-4BB25F7D31E6}">
+										<Image FileName="669329003" Left="0" Top="103" Right="1341" Bottom="282" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{1AD34F0D-5FB1-4E38-B873-51CE1FC4C76E}">
+										<Image FileName="669329003" Left="114" Top="179" Right="364" Bottom="210" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{4BD259BF-D158-428B-84E1-9075FB42238A}">
+										<Image FileName="669329003" Left="114" Top="179" Right="364" Bottom="210" />
+										<TypeInfo Item0="{70EF136D-E68E-4F63-881C-3FAECF7CD939}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img" />
+											</Selector>
+										</Selectors>
 									</Child>
 								</Children>
 							</Child>
@@ -752,6 +767,9 @@
 					<Child Name="navUsd" Owner="{AD05E0B0-61D9-4D49-A795-003FCAE3203A}">
 						<Child Name="linkLogIn" Owner="{EDD23C03-16D3-483D-9035-705D633381EE}">
 							<Child Name="textnodeLogIn" Owner="{40C74A00-BA1C-4852-9400-1A218CB00E4D}" />
+						</Child>
+						<Child Name="navNews" Owner="{73BD9D0E-4CD9-47E9-AD76-7D632572A07C}">
+							<Child Name="linkBlog" Owner="{209F1665-A25E-4506-92E9-5A4DF3FCCA2C}" />
 						</Child>
 					</Child>
 				</Child>
@@ -808,15 +826,13 @@
 					</Child>
 				</Child>
 			</Child>
-		</Child>
-		<Child Name="firefox" Owner="{B6C83434-E777-4931-AF92-FC63C3F688DF}">
-			<Child Name="wndMozillaWindowClass" Owner="{76C0D5D9-5400-4273-A413-184B04E2CD53}" />
-		</Child>
-		<Child Name="explorer" Owner="{F6B0BD53-501A-412E-B3A8-1B5BF0774AC1}">
-			<Child Name="wndShell_TrayWnd" Owner="{278D7676-879F-427A-B7B3-7394224196FA}">
-				<Child Name="ReBarWindow32" Owner="{EF8A6F34-8DB2-4881-A2BA-D7BB71BF0A6F}">
-					<Child Name="MSTaskSwWClass" Owner="{88D41EFC-5559-4A45-89BA-96088A98FCC0}">
-						<Child Name="MSTaskListWClass" Owner="{069DF2D2-EBE3-431C-A3B0-B5985DB1D8D2}" />
+			<Child Name="pageBlog" Owner="{BA7201A1-50CF-4103-858C-DB6543E7BF98}">
+				<Child Name="sectionContent" Owner="{B255108F-B3C8-44A0-8CAB-0028ADAF1EA9}">
+					<Child Name="textnodeBlog" Owner="{A6B21307-63F5-441D-978F-F88D3A24B947}" />
+				</Child>
+				<Child Name="header" Owner="{33009896-EC3B-445A-B1C4-4BB25F7D31E6}">
+					<Child Name="link" Owner="{1AD34F0D-5FB1-4E38-B873-51CE1FC4C76E}">
+						<Child Name="imageSmartstore" Owner="{4BD259BF-D158-428B-84E1-9075FB42238A}" />
 					</Child>
 				</Child>
 			</Child>

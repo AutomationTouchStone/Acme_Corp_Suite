@@ -59,6 +59,16 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="AutoWizz_Laptop_Branch" key="{A38F859A-E1FF-45DB-A4C8-874B7DF521A2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Check_Blog" key="{DA2E5388-80BB-47B9-AC8C-9D11224903C1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6223C2B7-1F48-4E01-80D1-D30002FA3D9C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{9E5A3438-4404-46E8-9CA4-EF98F0CE3BDD}">
@@ -86,7 +96,7 @@
 		</data>
 	</variables>
 	<settings key="{9575E5FA-0787-42B2-944E-8603E977DEDA}">
-		<settingsVersion value="15.46" />
+		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
