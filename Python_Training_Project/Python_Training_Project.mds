@@ -57,12 +57,22 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
+					<testItem name="Script_Test_Web_App_Login_Fail" key="{4D65949C-A243-4C43-9269-04E4F866C105}" group="False" parallel="False" enabled="True" testMoniker="{63658710-E2BE-4351-87C8-CD0635C75E24}Script_Test_Web_App_Login_Fail" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 			<testItem name="AutoWizz_Laptop_Branch" key="{A38F859A-E1FF-45DB-A4C8-874B7DF521A2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Check_Blog" key="{DA2E5388-80BB-47B9-AC8C-9D11224903C1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6223C2B7-1F48-4E01-80D1-D30002FA3D9C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Script_Test_Check_Blog" key="{DBF07D2B-FEB8-4E6E-BD2C-1B82BA406B3C}" group="False" parallel="False" enabled="True" testMoniker="{63658710-E2BE-4351-87C8-CD0635C75E24}Script_Test_Check_Blog" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -96,7 +106,7 @@
 		</data>
 	</variables>
 	<settings key="{9575E5FA-0787-42B2-944E-8603E977DEDA}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.46" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

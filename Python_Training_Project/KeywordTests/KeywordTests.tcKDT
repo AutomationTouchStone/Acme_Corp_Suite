@@ -18,5 +18,7 @@
 		<child name="Test_Check_Blog" key="{6223C2B7-1F48-4E01-80D1-D30002FA3D9C}" path="Test_Check_Blog.tcKDTest" />
 		<child name="Mod_Open_Blog" key="{C7BE6316-EFEA-496F-A6CD-D255FC91893B}" path="Mod_Open_Blog.tcKDTest" />
 		<child name="Mod_Return_WebStore_Home" key="{8229EBEE-F3AB-4CD5-A341-2F381DAEA116}" path="Mod_Return_WebStore_Home.tcKDTest" />
+		<child name="Script_Test_Web_App_Login_Fail" key="{CFE47417-0884-48CE-9D17-E09AE8B28703}" path="Script_Test_Web_App_Login_Fail.tcKDTest" />
+		<child name="Script_Test_Check_Blog" key="{F11E1C96-FAE0-47B1-B9F2-E2529A3DF285}" path="Script_Test_Check_Blog.tcKDTest" />
 	</children>
 </Root>
