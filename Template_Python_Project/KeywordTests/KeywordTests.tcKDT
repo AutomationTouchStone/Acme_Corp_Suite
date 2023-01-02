@@ -9,6 +9,8 @@
 			<child name="Test_Sample_Web_App_Open" key="{C3549F77-A936-4911-A540-5F1E276BAA9E}" path="Test_Sample_Web_App_Open.tcKDTest" />
 			<child name="Test_Template" key="{42533005-02FA-4B35-A5B5-79DF7B8C62C2}" path="Test_Template.tcKDTest" />
 		</folder>
-		<folder name="Common" />
+		<folder name="Common">
+			<child name="Test_Open_Desktop" key="{FC76536B-DF05-4041-8B3B-B4030103D82F}" path="Test_Open_Desktop.tcKDTest" />
+		</folder>
 	</children>
 </Root>

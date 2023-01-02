@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<folder name="Data_Files">
@@ -10,6 +10,7 @@
 		<child name="Events" key="{CBBB855B-BE3F-458E-96A8-8B24193BD68F}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 		<child name="NameMapping" key="{DF9C5DFC-C095-40FE-B78A-8F154BBBE296}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="README.md" key="{ECCAB84B-2EB5-4EB5-93BF-2B2F90B608AF}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
+		<child name="TestedApps" key="{E86941A1-2836-4FC7-8F2B-E6DE69767C17}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{C4105543-10EA-4857-A7F3-346CB220E4DF}" version="14">
@@ -49,6 +50,21 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Common" key="{92FCA947-D8E1-48D5-BBC3-249392D0F62A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Open_Desktop" key="{F5FC7AB4-29F8-46A3-87A5-0988186CF441}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FC76536B-DF05-4041-8B3B-B4030103D82F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Open_Desktop_Script" key="{0AECAB08-A2E7-47E4-8C2D-30BFDFB9BCFF}" group="False" parallel="False" enabled="True" testMoniker="{B962578C-AAD1-489D-AEDC-431594A82283}Test_Open_Desktop_Script" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{8BA5480F-BFD7-4E25-8EB9-586733F26952}">
@@ -73,7 +89,7 @@
 		</data>
 	</variables>
 	<settings key="{31D43491-142F-44DA-B53B-632A913A023F}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.46" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
