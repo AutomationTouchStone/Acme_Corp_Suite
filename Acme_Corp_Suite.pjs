@@ -11,7 +11,7 @@
 	<testItems key="{DDD45D64-CD01-4097-BB45-73BBE481B4A2}">
 		<children>
 			<testItem key="{31FDCDDC-2200-43D1-A211-4002CB7BD30B}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{F0DDED2C-A91E-4838-ABD2-B9FFC6FB8232}" enabled="False" timeout="0" stopOnError="False" description="" />
+			<testItem key="{F0DDED2C-A91E-4838-ABD2-B9FFC6FB8232}" enabled="True" timeout="0" stopOnError="False" description="" />
 		</children>
 	</testItems>
 	<variables key="{0A7E415B-7573-472D-AF5C-2232995F5BB0}" />
