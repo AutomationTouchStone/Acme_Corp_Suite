@@ -1,11 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
-		<child name="EventControl_TestEngine_OnStartTest" key="{7F3555E8-D9FD-4AE9-8199-A2CD9AA93582}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
-		<child name="Test_Template" key="{42533005-02FA-4B35-A5B5-79DF7B8C62C2}" path="Test_Template.tcKDTest" />
-		<child name="Mod_Template" key="{C89A9868-7E9F-4651-91B1-72737F0317E2}" path="Mod_Template.tcKDTest" />
-		<child name="Keyword_Calling_Script_Test_Template" key="{1F72782D-439E-49C9-A8BC-4A29C4E57F9E}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
-		<child name="Test_New_Function" key="{D649BD50-754F-4766-93EF-F66E4EF27DA4}" path="Test_New_Function.tcKDTest" />
-		<child name="Test_Sample_Web_App_Open" key="{C3549F77-A936-4911-A540-5F1E276BAA9E}" path="Test_Sample_Web_App_Open.tcKDTest" />
+		<folder name="Templates">
+			<child name="EventControl_TestEngine_OnStartTest" key="{7F3555E8-D9FD-4AE9-8199-A2CD9AA93582}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
+			<child name="Keyword_Calling_Script_Test_Template" key="{1F72782D-439E-49C9-A8BC-4A29C4E57F9E}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
+			<child name="Mod_Template" key="{C89A9868-7E9F-4651-91B1-72737F0317E2}" path="Mod_Template.tcKDTest" />
+			<child name="Test_New_Function" key="{D649BD50-754F-4766-93EF-F66E4EF27DA4}" path="Test_New_Function.tcKDTest" />
+			<child name="Test_Sample_Web_App_Open" key="{C3549F77-A936-4911-A540-5F1E276BAA9E}" path="Test_Sample_Web_App_Open.tcKDTest" />
+			<child name="Test_Template" key="{42533005-02FA-4B35-A5B5-79DF7B8C62C2}" path="Test_Template.tcKDTest" />
+		</folder>
+		<folder name="Common" />
 	</children>
 </Root>
