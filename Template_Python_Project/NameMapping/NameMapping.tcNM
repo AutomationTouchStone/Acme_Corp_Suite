@@ -37,6 +37,15 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="ToolBar" Key="{609F7736-74D6-4D1F-839D-BAB7590F3D99}">
+										<Image FileName="-548886544" Left="8" Top="51" Right="600" Bottom="79" />
+										<TypeInfo Item0="{B2BFBDE8-55E2-4DE9-A203-3E33118BA0F4}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ToolBar" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="OrderForm" Key="{C6B3DC23-DF42-42D2-9328-607213CB8129}">
@@ -633,6 +642,7 @@
 		<Child Name="Orders" Owner="{899C2C5F-716C-4F15-8F7E-8C31A7BDA699}">
 			<Child Name="MainForm" Owner="{36546F38-D023-4E33-A2DE-9AF931BD138F}">
 				<Child Name="OrdersView" Owner="{7BD036AD-8EEF-42E7-95DF-739C60704335}" />
+				<Child Name="ToolBar" Owner="{609F7736-74D6-4D1F-839D-BAB7590F3D99}" />
 			</Child>
 			<Child Name="OrderForm" Owner="{C6B3DC23-DF42-42D2-9328-607213CB8129}">
 				<Child Name="Group" Owner="{B1CF2915-705E-4AD7-9FFE-C28060EA626D}">

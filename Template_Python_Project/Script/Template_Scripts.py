@@ -36,3 +36,11 @@ def Script_Test_Template():
     Log.PopLogFolder()
     #Restores the previous indicator text.
     Indicator.PopText()
+
+def Delete_Record_Script():
+    #Clicks the 0 subitem of the 'Bang Che' item of the 'OrdersView' list view.
+    Aliases.Orders.MainForm.OrdersView.ClickItem("Bang Che")
+    #Clicks the 6 item of the 'ToolBar' toolbar.
+    Aliases.Orders.MainForm.ToolBar.ClickItem(6, False)
+    #Clicks the 'btnYes' button.
+    Aliases.Orders.dlgConfirmation.btnYes.ClickButton()

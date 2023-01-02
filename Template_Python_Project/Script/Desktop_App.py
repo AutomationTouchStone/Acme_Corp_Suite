@@ -1,4 +1,22 @@
-﻿def Test_Open_Desktop_Script():
+﻿def Update_Record_Script():
+    #Clicks the 0 subitem of the 0 item of the 'OrdersView' list view.
+    Aliases.Orders.MainForm.OrdersView.ClickItem(0)
+    #Clicks the 5 item of the 'ToolBar' toolbar.
+    Aliases.Orders.MainForm.ToolBar.ClickItem(5, False)
+    #Enters the text 'Bang Che' in the 'Customer' text editor.
+    Aliases.Orders.OrderForm.Group.Customer.SetText("Bang Che")
+    #Clicks the 'ButtonOK' button.
+    Aliases.Orders.OrderForm.ButtonOK.ClickButton()
+
+def Delete_Record_SCript():
+    #Clicks the 0 subitem of the 'Bang Che' item of the 'OrdersView' list view.
+    Aliases.Orders.MainForm.OrdersView.ClickItem("Bang Che")
+    #Clicks the 6 item of the 'ToolBar' toolbar.
+    Aliases.Orders.MainForm.ToolBar.ClickItem(6, False)
+    #Clicks the 'btnYes' button.
+    Aliases.Orders.dlgConfirmation.btnYes.ClickButton()
+    
+def Test_Open_Desktop_Script():
     #The beginning of the Open Application group
     #Runs the "Orders" tested application.
     TestedApps.Orders.Run(1, True)
@@ -47,6 +65,10 @@
     #Clicks the 'ButtonOK' button.
     Aliases.Orders.OrderForm.ButtonOK.ClickButton()
     #The end of the New Order group
+    #Runs a script routine.
+    Update_Record_Script()
+    #Runs a script routine.
+    Delete_Record_SCript()
     #The beginning of the Save_As group
     #Moves the mouse cursor to the menu item specified and then simulates a single click.
     Aliases.Orders.MainForm.MainMenu.Click("File|Save As...")

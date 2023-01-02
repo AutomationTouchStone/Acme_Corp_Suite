@@ -11,6 +11,8 @@
 		</folder>
 		<folder name="Common">
 			<child name="Test_Open_Desktop" key="{FC76536B-DF05-4041-8B3B-B4030103D82F}" path="Test_Open_Desktop.tcKDTest" />
+			<child name="Update_Record" key="{E9490628-5893-4477-B8CA-2AC2DFCEB834}" path="Update_Record.tcKDTest" />
+			<child name="Delete_Record" key="{405A1420-5626-47F0-82EC-AEB896AFBA6B}" path="Delete_Record.tcKDTest" />
 		</folder>
 	</children>
 </Root>

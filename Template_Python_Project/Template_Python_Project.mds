@@ -55,7 +55,7 @@
 				<children>
 					<testItem name="Test_Open_Desktop" key="{F5FC7AB4-29F8-46A3-87A5-0988186CF441}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FC76536B-DF05-4041-8B3B-B4030103D82F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Open_Desktop_Script" key="{0AECAB08-A2E7-47E4-8C2D-30BFDFB9BCFF}" group="False" parallel="False" enabled="True" testMoniker="{B962578C-AAD1-489D-AEDC-431594A82283}Test_Open_Desktop_Script" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
