@@ -80,19 +80,13 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Junk" key="{DD0425BD-97CC-4C4A-B610-AF52C0DFE715}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="New_Tests" key="{DD0425BD-97CC-4C4A-B610-AF52C0DFE715}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Junk_Script" key="{23264517-6407-42A1-A724-358615743E1F}" group="False" parallel="False" enabled="True" testMoniker="{63658710-E2BE-4351-87C8-CD0635C75E24}Junk_Script" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Hello_World_Script" key="{1FD51B87-AC70-4BB6-B799-5C11EB9A1ED8}" group="False" parallel="False" enabled="True" testMoniker="{63658710-E2BE-4351-87C8-CD0635C75E24}Hello_World_Script" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="Junk_2" key="{D374BBE1-BB9D-436B-8F5F-AF6920809397}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0C8A7DA1-58E0-4C50-A749-E9ED2839B71E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
+						<environments activeCloud="CBT" />
+						<children />
 					</testItem>
 				</children>
 			</testItem>

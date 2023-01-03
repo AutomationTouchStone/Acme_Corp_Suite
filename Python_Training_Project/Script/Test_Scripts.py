@@ -155,6 +155,6 @@ def Script_Test_Check_Blog():
     #Restores the previous indicator text.
     Indicator.PopText()
 
-def Junk_Script():
+def Hello_World_Script():
     #Posts an information message to the test log.
     Log.Message("Hello World", "")

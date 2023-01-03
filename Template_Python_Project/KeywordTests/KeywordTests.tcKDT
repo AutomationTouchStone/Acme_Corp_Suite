@@ -16,6 +16,14 @@
 			<child name="Generate_Customer_List" key="{D7AEB2B4-6658-479D-9F78-B7E3AC563348}" path="Generate_Customer_List.tcKDTest" />
 			<child name="Close_App" key="{48D697F3-747D-48B3-9220-A4139FCF3D14}" path="Close_App.tcKDTest" />
 			<child name="Test_Open_Desktop_Call_Script" key="{FA651897-7F41-40CD-81F2-02CE904112BB}" path="Test_Open_Desktop_Call_Script.tcKDTest" />
+			<child name="Open_App" key="{A68C6D80-65C5-4324-8331-A3C5F404E5A0}" path="Open_App.tcKDTest" />
+			<child name="Open_File" key="{DD21272A-431E-4E12-8DDB-1C4F364CF00A}" path="Open_File.tcKDTest" />
+			<child name="Save_As" key="{EE571F54-E73C-455C-B1EB-456126C3E7B7}" path="Save_As.tcKDTest" />
+			<child name="Dismiss_No" key="{0B723F53-FD73-42AE-8139-6BD04692D482}" path="Dismiss_No.tcKDTest" />
+			<child name="New_Order" key="{1ADBC2E1-57AC-4675-ABA1-147D6F787D4D}" path="New_Order.tcKDTest" />
+		</folder>
+		<folder name="NewFolder1">
+			<child name="Test1" key="{8BD2A937-EAF5-40A3-8752-7F349BC36BE8}" path="Test1.tcKDTest" />
 		</folder>
 	</children>
 </Root>

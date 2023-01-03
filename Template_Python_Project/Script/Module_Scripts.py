@@ -16,3 +16,52 @@
     Indicator.PopText()
     Aliases.Orders.OrderForm.ButtonOK.ClickButton()
 
+def Open_App_Script():
+    #The beginning of the Open Application group
+    #Runs the "Orders" tested application.
+    TestedApps.Orders.Run(1, True)
+    #The end of the Open Application group
+
+def Dismiss_No_SCript():
+    #Clicks the 'btnNo' button.
+    Aliases.Orders.dlgConfirmation.btnNo.ClickButton()
+
+def New_Order_Script():
+    #The beginning of the New Order group
+    #Moves the mouse cursor to the menu item specified and then simulates a single click.
+    Aliases.Orders.MainForm.MainMenu.Click("Orders|New order...")
+    #Clicks the 'Customer' object.
+    Aliases.Orders.OrderForm.Group.Customer.Click(50, 14)
+    #Enters the text 'Josh Stilton' in the 'Customer' text editor.
+    Aliases.Orders.OrderForm.Group.Customer.SetText("Josh Stilton")
+    #Enters '[Tab]' in the 'Customer' object.
+    Aliases.Orders.OrderForm.Group.Customer.Keys("[Tab]")
+    #Enters '![ReleaseLast]' in the 'Street' object.
+    Aliases.Orders.OrderForm.Group.Street.Keys("![ReleaseLast]")
+    #Enters the text '4125 Cumberland Court' in the 'Street' text editor.
+    Aliases.Orders.OrderForm.Group.Street.SetText("4125 Cumberland Court")
+    #Enters '[Tab]' in the 'Street' object.
+    Aliases.Orders.OrderForm.Group.Street.Keys("[Tab]")
+    #Enters the text 'Commerce' in the 'City' text editor.
+    Aliases.Orders.OrderForm.Group.City.SetText("Commerce")
+    #Enters '[Tab]' in the 'City' object.
+    Aliases.Orders.OrderForm.Group.City.Keys("[Tab]")
+    #Enters the text 'MI' in the 'State' text editor.
+    Aliases.Orders.OrderForm.Group.State.SetText("MI")
+    #Enters '[Tab]' in the 'State' object.
+    Aliases.Orders.OrderForm.Group.State.Keys("[Tab]")
+    #Enters the text '48323' in the 'Zip' text editor.
+    Aliases.Orders.OrderForm.Group.Zip.SetText("48323")
+    #Clicks the 'MasterCard' button.
+    Aliases.Orders.OrderForm.Group.MasterCard.ClickButton()
+    #Clicks the 'CardNo' object.
+    Aliases.Orders.OrderForm.Group.CardNo.Click(51, 13)
+    #Enters the text '1234567890123456' in the 'CardNo' text editor.
+    Aliases.Orders.OrderForm.Group.CardNo.SetText("1234567890123456")
+    #Sets the date '6/6/2034' in the 'ExpDate' date/time picker.
+    Aliases.Orders.OrderForm.Group.ExpDate.wDate = "6/6/2034"
+    #Enters '[Tab]' in the 'ExpDate' object.
+    Aliases.Orders.OrderForm.Group.ExpDate.Keys("[Tab]")
+    #Clicks the 'ButtonOK' button.
+    Aliases.Orders.OrderForm.ButtonOK.ClickButton()
+    #The end of the New Order group

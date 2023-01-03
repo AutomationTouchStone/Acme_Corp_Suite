@@ -35,3 +35,7 @@ def Update_Record_Script():
     Aliases.Orders.OrderForm.Group.Customer.SetText("Bang Che")
     #Clicks the 'ButtonOK' button.
     Aliases.Orders.OrderForm.ButtonOK.ClickButton()
+
+def Dismiss_No_Script():
+    #Clicks the 'btnNo' button.
+    Aliases.Orders.dlgConfirmation.btnNo.ClickButton()
