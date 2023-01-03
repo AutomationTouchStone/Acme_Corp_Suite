@@ -56,12 +56,29 @@
 					<testItem name="Test_Open_Desktop" key="{F5FC7AB4-29F8-46A3-87A5-0988186CF441}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FC76536B-DF05-4041-8B3B-B4030103D82F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
-						<children />
+						<children>
+							<testItem name="Test_Open_Desktop_Call_Script" key="{4B1702BD-D02A-4640-9924-B6A83C840A05}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FA651897-7F41-40CD-81F2-02CE904112BB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
-					<testItem name="Test_Open_Desktop_Script" key="{0AECAB08-A2E7-47E4-8C2D-30BFDFB9BCFF}" group="False" parallel="False" enabled="True" testMoniker="{B962578C-AAD1-489D-AEDC-431594A82283}Test_Open_Desktop_Script" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				</children>
+			</testItem>
+			<testItem name="Common 2" key="{900ED3EB-F901-4465-8786-A4059828F12F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Open_Desktop_Script_Calling_Keyword" key="{5D566D47-A5F8-4618-8961-D9C740FF06AA}" group="False" parallel="False" enabled="True" testMoniker="{B962578C-AAD1-489D-AEDC-431594A82283}Test_Open_Desktop_Script_Calling_Keyword" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="Script_Test_Open_Desktop_Call_Script" key="{ADDD2CF7-47F9-4327-8F74-4A44F2D4D85A}" group="False" parallel="False" enabled="True" testMoniker="{B962578C-AAD1-489D-AEDC-431594A82283}Script_Test_Open_Desktop_Call_Script" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
 				</children>
 			</testItem>

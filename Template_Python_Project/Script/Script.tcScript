@@ -6,6 +6,7 @@
 			<child name="Template_Scripts" key="{7F4D4EEB-D2BF-43A7-8C14-CE36B4E47988}" path="Template_Scripts.py" />
 			<child name="Utility_Scripts" key="{0590C6F7-FC61-4906-85E3-6418E2EF7B81}" path="Utility_Scripts.py" />
 			<child name="Desktop_App" key="{B962578C-AAD1-489D-AEDC-431594A82283}" path="Desktop_App.py" />
+			<child name="Desktop_Mod" key="{C97EB858-6D3B-4A98-A4CC-81D538C876B0}" path="Desktop_Mod.py" />
 		</folder>
 		<folder name="Common" />
 	</children>

@@ -13,6 +13,9 @@
 			<child name="Test_Open_Desktop" key="{FC76536B-DF05-4041-8B3B-B4030103D82F}" path="Test_Open_Desktop.tcKDTest" />
 			<child name="Update_Record" key="{E9490628-5893-4477-B8CA-2AC2DFCEB834}" path="Update_Record.tcKDTest" />
 			<child name="Delete_Record" key="{405A1420-5626-47F0-82EC-AEB896AFBA6B}" path="Delete_Record.tcKDTest" />
+			<child name="Generate_Customer_List" key="{D7AEB2B4-6658-479D-9F78-B7E3AC563348}" path="Generate_Customer_List.tcKDTest" />
+			<child name="Close_App" key="{48D697F3-747D-48B3-9220-A4139FCF3D14}" path="Close_App.tcKDTest" />
+			<child name="Test_Open_Desktop_Call_Script" key="{FA651897-7F41-40CD-81F2-02CE904112BB}" path="Test_Open_Desktop_Call_Script.tcKDTest" />
 		</folder>
 	</children>
 </Root>

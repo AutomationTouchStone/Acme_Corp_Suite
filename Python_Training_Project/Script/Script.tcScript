@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Template_Scripts" key="{15A2804A-B341-490C-A5D9-1125C4B26F35}" path="Template_Scripts.py" />
-		<child name="Utility_Scripts" key="{307CD821-33A2-4750-A4EC-E059233793D7}" path="Utility_Scripts.py" />
-		<child name="Module_Scripts" key="{0F4A4E4E-092C-4C27-9CA0-A400E94EB6FC}" path="Module_Scripts.py" />
-		<child name="Test_Scripts" key="{63658710-E2BE-4351-87C8-CD0635C75E24}" path="Test_Scripts.py" />
+		<folder name="Common">
+			<child name="Test_Scripts" key="{63658710-E2BE-4351-87C8-CD0635C75E24}" path="Test_Scripts.py" />
+			<child name="Utility_Scripts" key="{307CD821-33A2-4750-A4EC-E059233793D7}" path="Utility_Scripts.py" />
+		</folder>
+		<folder name="Template">
+			<child name="Module_Scripts" key="{0F4A4E4E-092C-4C27-9CA0-A400E94EB6FC}" path="Module_Scripts.py" />
+			<child name="Template_Scripts" key="{15A2804A-B341-490C-A5D9-1125C4B26F35}" path="Template_Scripts.py" />
+		</folder>
 	</children>
 </Root>

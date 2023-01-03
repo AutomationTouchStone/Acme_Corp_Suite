@@ -14,3 +14,5 @@
     Log.PopLogFolder()
     #Restores the previous indicator text.
     Indicator.PopText()
+    Aliases.Orders.OrderForm.ButtonOK.ClickButton()
+
