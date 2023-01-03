@@ -24,6 +24,7 @@
 		</folder>
 		<folder name="NewFolder1">
 			<child name="Test1" key="{8BD2A937-EAF5-40A3-8752-7F349BC36BE8}" path="Test1.tcKDTest" />
+			<child name="Test2" key="{0E9BFD94-5F55-456A-B251-DCE24F88895A}" path="Test2.tcKDTest" />
 		</folder>
 	</children>
 </Root>
